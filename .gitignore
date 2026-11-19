@@ -1,0 +1,8 @@
+# Dados de clientes reais (telefone, endereço, CRO): nunca num repositório público
+clientes/
+
+# Gerado pelo build (o Cloudflare gera de novo)
+dist/
+
+__pycache__/
+.DS_Store

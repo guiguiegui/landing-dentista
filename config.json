@@ -1,0 +1,42 @@
+{
+  "modo_exemplo": true,
+  "nome": "Clínica Sorriso Campinas",
+  "slogan": "Cuidado odontológico com calma, clareza e sem dor desnecessária.",
+  "descricao_curta": "Clínica odontológica em Campinas: limpeza, clareamento, ortodontia, implantes e atendimento de urgência. Agende pelo WhatsApp.",
+  "responsavel": "Dra. Helena Duarte",
+  "cro": "CRO-SP 00000",
+  "telefone_exibicao": "(19) 90000-0000",
+  "whatsapp": "5519900000000",
+  "mensagem_whatsapp": "Olá! Vi o site da clínica e gostaria de agendar uma avaliação.",
+  "endereco": "Rua Exemplo, 123, Sala 45",
+  "bairro": "Cambuí",
+  "cidade": "Campinas",
+  "estado": "SP",
+  "cep": "13000-000",
+  "instagram": "",
+  "cor_principal": "#0f8b8d",
+  "cor_escura": "#0b3d4a",
+  "sobre": [
+    "Somos uma clínica pequena, de propósito. Cada paciente é atendido com tempo, recebe explicação clara do que será feito e vê o orçamento antes de começar.",
+    "Nosso foco é prevenção e conforto: tratar cedo, evitar surpresas e manter o seu sorriso saudável por muitos anos."
+  ],
+  "diferenciais": [
+    "Orçamento claro antes de qualquer procedimento",
+    "Horários flexíveis, inclusive sábado",
+    "Atendimento de urgência",
+    "Ambiente tranquilo e esterilização rigorosa"
+  ],
+  "servicos": [
+    {"titulo": "Avaliação e limpeza", "texto": "Check-up completo, remoção de tártaro e orientação de higiene para prevenir cáries e problemas na gengiva."},
+    {"titulo": "Clareamento", "texto": "Sorriso mais claro com técnica segura, acompanhada pela dentista, sem agredir o esmalte."},
+    {"titulo": "Ortodontia", "texto": "Aparelhos fixos e alinhadores para ajustar o posicionamento dos dentes em qualquer idade."},
+    {"titulo": "Implantes e próteses", "texto": "Reabilitação para repor dentes perdidos, devolvendo mastigação, fala e confiança."},
+    {"titulo": "Tratamento de canal", "texto": "Alívio da dor com técnica moderna e anestesia, preservando o seu dente natural."},
+    {"titulo": "Urgência", "texto": "Dor, dente quebrado ou inflamação? Encaixamos o atendimento o quanto antes."}
+  ],
+  "horarios": [
+    {"dia": "Segunda a sexta", "horas": "8h às 19h"},
+    {"dia": "Sábado", "horas": "8h às 12h"},
+    {"dia": "Domingo", "horas": "Fechado"}
+  ]
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{nome}} | Dentista em {{cidade}}</title>
+  <meta name="description" content="{{descricao_curta}}">
+  <meta property="og:title" content="{{nome}}">
+  <meta property="og:description" content="{{descricao_curta}}">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="{{cor_principal}}">
+{{robots_meta}}
+  <style>
+    :root { --cor: {{cor_principal}}; --escura: {{cor_escura}}; }
+  </style>
+  <style>
+{{css}}
+  </style>
+{{json_ld_tag}}
+</head>
+<body>
+{{aviso_exemplo}}
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="#inicio">{{nome}}</a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#servicos">Tratamentos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn" href="{{link_whatsapp}}" rel="noopener">Agendar</a>
+  </div>
+</header>
+
+<main id="inicio">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Seu dentista em {{cidade}}, com atendimento sem pressa.</h1>
+        <p class="lead">{{slogan}}</p>
+        <div class="acoes">
+          <a class="btn" href="{{link_whatsapp}}" rel="noopener">Agendar pelo WhatsApp</a>
+          <a class="btn sec" href="#servicos">Ver tratamentos</a>
+        </div>
+      </div>
+      <div class="ilustra" aria-hidden="true">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 8c-6-4-18-3-20 9-1 8 3 12 5 20 2 9 3 19 8 19 4 0 3-12 7-12s3 12 7 12c5 0 6-10 8-19 2-8 6-12 5-20-2-12-14-13-20-9z" fill="#fff" stroke="{{cor_principal}}" stroke-width="2.5" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <section id="servicos">
+    <div class="wrap">
+      <h2>Tratamentos</h2>
+      <div class="grade">
+{{servicos_html}}
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="alt">
+    <div class="wrap dois">
+      <div>
+        <h2>Sobre a clínica</h2>
+{{sobre_html}}
+        <p><strong>{{responsavel}}</strong><br>{{cro}}</p>
+      </div>
+      <div>
+        <h3>Por que escolher a gente</h3>
+        <ul class="checks">
+{{diferenciais_html}}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap dois">
+      <div>
+        <h2>Agende sua avaliação</h2>
+        <p>Chame no WhatsApp e responderemos o quanto antes, em horário de atendimento.</p>
+        <p><a class="btn" href="{{link_whatsapp}}" rel="noopener">Falar no WhatsApp</a></p>
+        <p><strong>Telefone:</strong> {{telefone_exibicao}}<br>
+        <strong>Endereço:</strong> {{endereco_completo}}</p>
+{{instagram_html}}
+        <h3>Horários</h3>
+        <table class="horarios">
+{{horarios_html}}
+        </table>
+      </div>
+      <div>
+        <iframe class="mapa" title="Mapa de {{nome}}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="{{mapa_url}}"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>{{nome}}</strong> · {{responsavel}} · {{cro}}<br>
+    {{endereco_completo}}
+  </div>
+</footer>
+
+<a class="zap-fixo" href="{{link_whatsapp}}" rel="noopener" aria-label="Falar no WhatsApp">WhatsApp</a>
+</body>
+</html>
