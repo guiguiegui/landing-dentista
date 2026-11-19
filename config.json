@@ -1,8 +1,8 @@
 {
   "modo_exemplo": true,
   "nome": "Clínica Sorriso Campinas",
-  "slogan": "Cuidado odontológico com calma, clareza e sem dor desnecessária.",
-  "descricao_curta": "Clínica odontológica em Campinas: limpeza, clareamento, ortodontia, implantes e atendimento de urgência. Agende pelo WhatsApp.",
+  "slogan": "Consultas com tempo para ouvir você, explicar cada etapa e mostrar o orçamento antes de começar.",
+  "descricao_curta": "Clínica odontológica no Cambuí, em Campinas: avaliação, limpeza, clareamento, ortodontia, implantes, canal e atendimento de urgência. Agende pelo WhatsApp.",
   "responsavel": "Dra. Helena Duarte",
   "cro": "CRO-SP 00000",
   "telefone_exibicao": "(19) 90000-0000",
@@ -17,22 +17,24 @@
   "cor_principal": "#0f8b8d",
   "cor_escura": "#0b3d4a",
   "sobre": [
-    "Somos uma clínica pequena, de propósito. Cada paciente é atendido com tempo, recebe explicação clara do que será feito e vê o orçamento antes de começar.",
-    "Nosso foco é prevenção e conforto: tratar cedo, evitar surpresas e manter o seu sorriso saudável por muitos anos."
+    "A Clínica Sorriso é um consultório pequeno, de propósito. Cada paciente tem horário reservado, sem fila de espera e sem pressa, para que a conversa aconteça antes do tratamento.",
+    "Na primeira consulta, a Dra. Helena examina, explica o que encontrou em linguagem simples e apresenta as opções com os valores. Você decide com calma, e só começamos quando fizer sentido para você.",
+    "O foco é a prevenção: acompanhar com regularidade para tratar cedo e evitar procedimentos maiores no futuro."
   ],
   "diferenciais": [
-    "Orçamento claro antes de qualquer procedimento",
-    "Horários flexíveis, inclusive sábado",
-    "Atendimento de urgência",
-    "Ambiente tranquilo e esterilização rigorosa"
+    "Orçamento apresentado por escrito antes de qualquer procedimento",
+    "Horário marcado e respeitado, sem fila de espera",
+    "Atendimento aos sábados pela manhã",
+    "Encaixe para urgências, de acordo com a agenda do dia",
+    "Materiais esterilizados e descartáveis, com o protocolo mostrado ao paciente"
   ],
   "servicos": [
-    {"titulo": "Avaliação e limpeza", "texto": "Check-up completo, remoção de tártaro e orientação de higiene para prevenir cáries e problemas na gengiva."},
-    {"titulo": "Clareamento", "texto": "Sorriso mais claro com técnica segura, acompanhada pela dentista, sem agredir o esmalte."},
-    {"titulo": "Ortodontia", "texto": "Aparelhos fixos e alinhadores para ajustar o posicionamento dos dentes em qualquer idade."},
-    {"titulo": "Implantes e próteses", "texto": "Reabilitação para repor dentes perdidos, devolvendo mastigação, fala e confiança."},
-    {"titulo": "Tratamento de canal", "texto": "Alívio da dor com técnica moderna e anestesia, preservando o seu dente natural."},
-    {"titulo": "Urgência", "texto": "Dor, dente quebrado ou inflamação? Encaixamos o atendimento o quanto antes."}
+    {"titulo": "Avaliação e limpeza", "texto": "Exame completo, remoção de tártaro e orientação de higiene. É a base para acompanhar a saúde da boca com regularidade."},
+    {"titulo": "Clareamento", "texto": "Opções de clareamento de consultório e caseiro, indicadas após avaliação do seu caso, com acompanhamento da dentista."},
+    {"titulo": "Ortodontia", "texto": "Aparelho fixo ou alinhadores transparentes para adultos e adolescentes. A indicação depende do planejamento de cada paciente."},
+    {"titulo": "Implantes e próteses", "texto": "Reposição de dentes perdidos para recuperar mastigação e fala, com planejamento e exames antes de decidir."},
+    {"titulo": "Tratamento de canal", "texto": "Tratamento realizado com anestesia para tentar preservar o seu dente natural, quando essa for a melhor indicação."},
+    {"titulo": "Urgências", "texto": "Dor, dente quebrado ou inchaço? Chame no WhatsApp e encaixamos o atendimento o mais cedo que a agenda permitir."}
   ],
   "horarios": [
     {"dia": "Segunda a sexta", "horas": "8h às 19h"},
